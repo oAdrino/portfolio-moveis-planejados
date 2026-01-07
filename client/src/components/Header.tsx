@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logoImg from '@/image/icon.jpeg';
 
 /**
  * Header Component
@@ -10,6 +11,14 @@ import { Button } from '@/components/ui/button';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const logo = (
+    <img
+      src={logoImg}
+      alt="Pri Projetista Logo"
+      className="h-10 w-10 object-cover scale-150"
+    />
+  )
 
   const navItems = [
     { label: 'Início', href: '#home' },
@@ -23,8 +32,8 @@ export default function Header() {
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-primary rounded-sm flex items-center justify-center">
-            <span className="text-white font-bold text-lg">PP</span>
+          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+            {logo}
           </div>
           <span className="text-lg font-semibold text-foreground hidden sm:inline">
             Pri Projetos

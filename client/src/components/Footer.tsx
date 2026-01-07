@@ -3,8 +3,11 @@
  * Design: Minimalist Modern - Clean footer with essential information
  */
 
+import logoImg from '@/image/icon.jpeg';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+
 
   return (
     <footer className="bg-foreground text-white py-12">
@@ -13,8 +16,14 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
-                <span className="text-white font-bold">PP</span>
+              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+                <span>
+                  <img
+                    src={logoImg}
+                    alt="Pri Projetista Logo"
+                    className="h-10 w-10 object-cover scale-150"
+                  />
+                </span>
               </div>
               <span className="font-semibold">Pri Projetista</span>
             </div>
@@ -55,7 +64,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="tel:+5548984650120" className="hover:text-primary transition-colors">
+                <a href="https://wa.me/5548984650120" target='_blank' rel="noopener noreferrer" className="hover:text-primary transition-colors">
                   (48) 98465-0120
                 </a>
               </li>
@@ -67,7 +76,11 @@ export default function Footer() {
                   PriProjetista@gmail.com
                 </a>
               </li>
-              <li className="text-gray-400">Balneário Piçarras, SC</li>
+              <li>
+                <a href="https://maps.app.goo.gl/LpNjbNi5nMQ39jdVA" target='_blank' rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  Balneário Piçarras, SC
+                </a>
+              </li>
             </ul>
           </div>
         </div>
