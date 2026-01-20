@@ -9,28 +9,27 @@ import { Check } from 'lucide-react';
 export default function About() {
   const highlights = [
     'Projetos personalizados com design exclusivo',
-    'Materiais de alta qualidade',
-    'Atendimento dedicado do início ao fim',
-    'Prazos respeitados e garantia de satisfação',
-    'Consultoria gratuita de design',
+    'Aproveitamento inteligente do espaço disponível',
+    'Estilo moderno e personalizado',
+    'Prazos respeitados e garantia de satisfação'
   ];
 
   const process = [
     {
       step: '01',
-      title: 'Consulta Inicial',
+      title: 'Briefing',
       description: 'Entendemos suas necessidades, espaço e preferências estéticas',
     },
 
     {
       step: '02',
-      title: 'Produção',
-      description: 'Fabricação com materiais premium e acabamento perfeito',
+      title: 'Projeto 3D',
+      description: 'Apresentação da proposta com ajustes inclusos conforme seu feedback',
     },
     {
       step: '03',
-      title: 'Instalação',
-      description: 'Montagem profissional e ajustes finais no seu espaço',
+      title: 'Entrega final',
+      description: 'PDF com imagens e sugestões de materiais.',
     },
   ];
 
@@ -60,9 +59,12 @@ export default function About() {
               Transformando Espaços em Soluções
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              Com mais de uma década de experiência em design de interiores e móveis planejados,
-              nossa missão é criar espaços funcionais e belos que refletem a personalidade e
-              necessidades de cada cliente.
+              Com mais de uma década de experiência em design de interiores e móveis planejados.
+              Ajudo clientes a transformar seus espaços em
+              ambientes funcionais, modernos e aconchegantes,
+              sempre com foco em estética, aproveitamento e custo-benefício.
+              Nossa missão é entregar projetos únicos,
+              personalizados e prontos para se tornarem realidade.
             </p>
 
             {/* Highlights */}

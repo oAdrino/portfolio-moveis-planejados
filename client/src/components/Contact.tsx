@@ -60,13 +60,6 @@ export default function Contact() {
         href: "mailto:priprojetista@gmail.com",
         external: false, // mailto pode abrir app; target pode ser ignorado
       },
-      {
-        icon: MapPin,
-        label: "Localização",
-        value: "Balneário Piçarras, SC",
-        href: "https://www.google.com/maps/search/?api=1&query=Balne%C3%A1rio%20Pi%C3%A7arras%2C%20SC",
-        external: true,
-      },
     ],
     []
   );

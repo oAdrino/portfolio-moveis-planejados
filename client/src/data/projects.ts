@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     id: 1,
     slug: "cozinha-moderna",
-    title: "Cozinha Moderna",
+    title: "Cozinha Planejada",
     category: "Cozinhas",
     coverImage: "/images/hero-modern-kitchen.jpg",
     images: [

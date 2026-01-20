@@ -18,10 +18,10 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Cozinha Moderna',
+    title: 'Cozinha Planejada',
     category: 'Cozinhas',
     image: '/images/hero-modern-kitchen.jpg',
-    description: 'Cozinha integrada com móveis planejados em madeira natural',
+    description: 'Cozinha integrada com móveis planejados',
   },
   {
     id: 2,
