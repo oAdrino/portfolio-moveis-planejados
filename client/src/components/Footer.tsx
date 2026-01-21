@@ -3,7 +3,7 @@
  * Design: Minimalist Modern - Clean footer with essential information
  */
 
-import logoImg from 'C:/Users/adria/OneDrive/Desktop/moveis-planejados-portfolio/client/src/image/icon.jpeg';
+import logoImg from '../image/icon.jpeg';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
