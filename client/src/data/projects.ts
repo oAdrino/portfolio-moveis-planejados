@@ -27,11 +27,11 @@ export const projects: Project[] = [
   {
     id: 1,
     slug: "cozinha-moderna",
-    title: "Cozinha Planejada",
+    title: "Cozinha Moderna",
     category: "Cozinhas",
-    coverImage: "/images/hero-modern-kitchen.jpg",
+    coverImage: "/images/cozinha1.jpg",
     images: [
-      "/images/hero-modern-kitchen.jpg",
+      "/images/cozinha1.jpg",
       "/images/living-room-shelving.jpg",
       "/images/bedroom-wardrobe.jpg",
     ],

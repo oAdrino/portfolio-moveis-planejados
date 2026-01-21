@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoImg from 'C:/Users/adria/OneDrive/Desktop/moveis-planejados-portfolio/client/src/images/icon.jpeg';
+import logoImg from 'C:/Users/adria/OneDrive/Desktop/moveis-planejados-portfolio/client/src/image/icon.jpeg';
 
 /**
  * Header Component

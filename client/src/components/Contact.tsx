@@ -60,6 +60,7 @@ export default function Contact() {
         href: "mailto:priprojetista@gmail.com",
         external: false, // mailto pode abrir app; target pode ser ignorado
       },
+
     ],
     []
   );
