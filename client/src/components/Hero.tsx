@@ -13,16 +13,20 @@ export default function Hero() {
       id="home"
       className="relative w-full h-screen flex items-center justify-start overflow-hidden pt-20"
     >
-      {/* Background Image */}
+      {/* Background Image Container */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 w-full h-full -z-10"
         style={{
-          backgroundImage: 'url(/images/hero-modern-kitchen.jpg)',
+          backgroundImage: "url('/images/comerciais/comerciais (1).jpeg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
         }}
-      >
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
-      </div>
+      />
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/40 z-0"></div>
 
       {/* Content */}
       <div className="relative z-10 container flex flex-col justify-center h-full max-w-2xl">

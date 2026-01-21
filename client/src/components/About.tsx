@@ -37,13 +37,13 @@ export default function About() {
     <section id="about" className="py-20 md:py-32 bg-secondary/30">
       <div className="container">
         {/* Main About Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-12 items-center mb-20">
           {/* Image Side */}
           <div className="order-2 md:order-1">
             <div className="relative">
               <div className="absolute -inset-4 bg-primary/10 rounded-lg"></div>
               <img
-                src="/images/bedroom-wardrobe.jpg"
+                src="/images/comerciais/comerciais (8).jpeg"
                 alt="Projeto de móvel planejado"
                 className="relative w-full rounded-lg shadow-lg"
               />
@@ -98,7 +98,7 @@ export default function About() {
               <div key={index} className="relative">
                 {/* Step Number */}
                 <div className="mb-6">
-                  <span className="text-6xl font-bold text-primary/10">{item.step}</span>
+                  <span className="text-6xl font-bold text-primary/30">{item.step}</span>
                 </div>
 
                 {/* Content */}
